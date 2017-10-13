@@ -79,10 +79,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    首頁
                 </div>
 
                 <div class="links">
+                    <a href="{{route('news.index')}}">最新消息</a>
+                    <a href="{{route('about.index')}}">關於本站</a>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
